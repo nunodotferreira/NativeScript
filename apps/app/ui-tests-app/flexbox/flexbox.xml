@@ -1,6 +1,6 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" actionBarHidden="true">
     <GridLayout rows="auto, *">
-        <GridLayout class="control" columns="auto, *" rows="30, 30, 30, 30, 30, 25, 15, 15, 15, 30, 30">
+        <GridLayout class="control" columns="auto, *" rows="25, 25, 30, 30, 30, 25, 15, 15, 15, 30, 30">
             <Label row="0" text="FlexDirection" verticalAlignment="center" />
             <FlexboxLayout row="0" col="1" flexWrap="wrap" alignContent="stretch">
                 <Button text="row" tap="flexDirection" flexGrow="1" automationText="flexDirection-row" />
@@ -95,7 +95,7 @@
             <Label text="row-reverse" tap="select" />
             <Label text="column" tap="select" />
             <Label text="column-reverse" tap="select" />
-            <Label text="row" tap="select" />
+            <!--<Label text="row" tap="select" />
             <Label text="row-reverse" tap="select" />
             <Label text="column" tap="select" />
             <Label text="column-reverse" tap="select" />
@@ -103,7 +103,7 @@
             <Label text="row-reverse" tap="select" />
             <Label text="column" tap="select" />
             <Label text="column-reverse" tap="select" />
-            <Label text="row" tap="select" />
+            <Label text="row" tap="select" />-->
         </FlexboxLayout>
     </GridLayout>
 </Page>
